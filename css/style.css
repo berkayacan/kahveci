@@ -1,0 +1,308 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+    margin:0;
+    padding:0;
+    }
+    table {
+    border-collapse:collapse;
+    border-spacing:0;
+    }
+    fieldset,img {
+    border:0;
+    }
+    address,caption,cite,code,dfn,em,strong,th,var {
+    font-style:normal;
+    font-weight:normal;
+    }
+    ol,ul {
+    list-style:none;
+    }
+    caption,th {
+    text-align:left;
+    }
+    h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:normal;
+    }
+    q:before,q:after {
+    content:'';
+    }
+    abbr,acronym { border:0;
+    }
+    .tasiyici{
+        width: 100%;
+        height: auto;
+
+    }
+    .ust_banner{
+        width: 100%;
+        height: 700px;
+        background-image: url("../img/kahvebaslik.png");
+        background-size: cover;
+    }
+    .menu{
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100px;
+        opacity: 0.6;
+        background-color: #a4b0be;
+        z-index: 1;
+    }
+    .menu:hover{
+        opacity: 0.9;
+    }
+    .menu ul{
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+    }
+    .menu li{
+        padding: 12px 16px;
+        float: right;
+        transition: all 0.4s;
+    }
+    .menu a{
+        text-decoration: none;
+        padding: 12px 16px;
+        color: black;
+        font-size: 24px;
+        font-weight: 600;
+        box-sizing: border-box;
+        font-family: Hot Coffee;
+    }
+    .menu a:hover{
+        color: brown;
+        transition: all 0.4s;
+    }
+    .logo{
+        width: auto;
+        height: 205%;
+        background-color: transparent;
+        position: absolute;
+        transform: rotate(45deg);
+        margin: 42px;
+        
+    }
+    .slogan{
+        width: 100%;
+        height: auto;
+        margin: 10px 0px;
+        font-family: Hot Coffee;
+        font-size: 34px;
+        text-align: center;
+        background-image: url(../img/cekirdek.jpg);
+        background-size: cover;
+        padding: 20px;
+        color: white;
+        box-sizing: border-box;
+        box-shadow: 5px 7px 5px #381D00;
+        margin-bottom: 10px;
+    }
+    .uclu{
+        width: 30%;
+        height: 300px;
+        background-color: transparent;
+        padding: 20px;
+        box-shadow: 5px 2px 7px black;
+        float: left;
+        margin-bottom: 5px;
+        
+    }
+    .uclu_baslik{
+        font-family: Hot Coffee;
+        font-size: 30px;
+        text-align: center;
+        color: #A2775C;
+        text-shadow: 2px 2px 4px #2D181A;
+        overflow: hidden;
+    }
+    .uclu img{
+        width: 100%;
+        height: 90%;
+        overflow: hidden;
+    }
+    .tekli_div{
+        width: 100%;
+        height: 100px;
+        background-color: transparent;
+        background-image: url("../img/atatürk.png");
+        background-attachment: fixed;
+    }
+    .ikili_div{
+        width: 45%;
+        height: 300px;
+        background-color: transparent;
+        padding: 20px;
+        box-shadow: 3px 5px 7px black;
+        float: left;
+        margin-bottom: 5px;
+        margin-left: 40px;
+        margin-top: 10px;
+
+        font-size: 24px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-color: #FFD577;
+        overflow: hidden;
+    }
+    .ikili_baslik{
+        font-size: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        font-weight: bold;
+    }
+    .temizle{
+        clear: both;
+    }
+    .tekli{
+        width: 100%;
+        height: auto;
+        background-color: FFD577;
+        padding: 20px;
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        float: left;
+        box-sizing: border-box;
+    }
+
+    .tekli img{
+        width: 25%;
+        height: auto;
+        float: left;
+        margin-right: 10px;
+    }
+    .footer{
+        width: 100%;
+        height: 320px;
+        background-color: black;
+        padding: 30px;
+        box-sizing: border-box;
+    }
+    .footer_baslik{
+        font-size: 25px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: left;
+        font-weight: bold;
+        color: white;
+        text-decoration: underline;
+    }
+    .footer_sol{
+        width: 28%;
+        height: 250px;
+        background-color: transparent;
+        float: left;
+        padding: 20px;
+        margin-left: 92px;
+    }
+    .footer_sol li a{
+        font-size: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+    }
+    .footer_orta{
+        width: 30%;
+        height: 250px;
+        background-color: transparent;
+        float: left;
+        padding: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .footer_orta address{
+        font-size: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: left;
+        color: white;
+    }
+    .footer_sag{
+        width: 28%;
+        height: 250px;
+        background-color: transparent;
+        float: left;
+        padding: 20px;
+        color: white;
+    }
+    .footer_sag a{
+        color: white;
+    }
+    .footer_alt{
+        clear: both;
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        font-size: 12px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: white;
+        text-align: left;
+    }
+    
+    @font-face{
+        font-family: Hot Coffee;
+        src: url("../font/Hot\ Coffee.otf");
+    }
+
+    @media only screen and (max-width:700px)
+    {
+    .menu{
+        height: auto;
+    }
+    .menu li{
+        clear: both;
+        width: 100%;
+        padding: 5px;
+    }
+    .menu a{
+        font-size: 20px;
+        font-weight: 500;
+        padding: 25px;
+    }
+    .menu a:hover{
+        font-size: 20px;
+        font-weight: 500;
+        padding: 5px;
+    }
+    .logo{
+        width: auto;
+        height: 80%;
+        margin-left: 200px;
+    }
+    .slogan{
+        font-size: 22px;
+        padding: 10px;
+    }
+    .uclu{
+        clear: both;
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+    }
+    .ikili_div{
+        clear: both;
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+    }
+    .footer_sol{
+        width: auto;
+        margin-left: 10px;
+    }
+    .footer_orta{
+    width: auto
+    }
+    .footer_sag{
+        clear: both;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .footer_baslik{
+        text-align: left;
+    }
+    .footer_baslik > a > i{
+        color: white;
+    }
+
+    }
+    
